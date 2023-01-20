@@ -1,8 +1,9 @@
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
     name: "TTTAttributedLabel",
-    platforms: [.iOS(.v9)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "TTTAttributedLabel",
